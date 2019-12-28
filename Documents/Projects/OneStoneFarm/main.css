@@ -1,0 +1,116 @@
+body {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+nav {
+    display: flex;
+    height: 60px;
+    background-color: lightgray;
+    margin: 0;
+    padding: 0;
+}
+
+nav .hamburger {
+    display: none;
+}
+
+nav .menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: flex-start;
+    list-style-type: none;
+    flex-basis: 500px;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+    font-family: 'Merienda', cursive;
+    padding: 20px 20px;
+    font-size: 20px;
+}
+
+a:hover {
+    background-color: white;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Merienda', cursive;
+    font-size: 95px;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Merienda', cursive;
+}
+
+@media screen and (max-width: 350px) {
+
+    header {
+        display: flex;
+        justify-content: center;
+        
+    }
+    
+    nav {
+        display: flex;
+        height: 60px;
+        background-color: lightgray;
+        margin: 0;
+        padding: 0;
+    }
+    
+    nav .hamburger {
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+    }
+    
+    nav .menu {
+        display: none;
+        flex-direction: row;
+        justify-content: space-around;
+        align-content: flex-start;
+        list-style-type: none;
+        flex-basis: 500px;
+    }
+    
+    a:link {
+        text-decoration: none;
+        color: black;
+        font-family: 'Merienda', cursive;
+        padding: 20px 20px;
+        font-size: 20px;
+    }
+    
+    a:hover {
+        background-color: white;
+    }
+    
+    h1 {
+        display: flex;
+        justify-content: center;
+        font-family: 'Merienda', cursive;
+        font-size: 95px;
+    }
+    
+    h2 {
+        display: flex;
+        justify-content: center;
+        font-family: 'Merienda', cursive;
+    }
+
+}
+
+
