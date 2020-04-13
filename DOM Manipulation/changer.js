@@ -1,5 +1,5 @@
 var button = document.querySelector("button");
-var isPurple = false;
+// var isPurple = false;
 
 // button.addEventlistener("click" , function(){
 //     if (isPurple) {
@@ -12,7 +12,6 @@ var isPurple = false;
 //     isPurple = !isPurple!
 // });
 
-button.addEventlistener("click", function(){
+button.addEventListener("click", function(){
     document.body.classList.toggle("purple");
 });
-
