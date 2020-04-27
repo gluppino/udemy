@@ -33,16 +33,20 @@ p2button.addEventListener('click', function () {
 })
 
 resetButton.addEventListener('click', function () {
+  reset()
+})
+
+function reset () {
   p1Score = 0
   p2Score = 0
   p1Display.textContent = 0
   p2Display.textContent = 0
-  p1Display.classList.remove('winner')
-  p2Display.classList.remove('winner')
-  gameOver = false
-})
+  p1Display.classList.remove("winner")
+	p2Display.classList.remove("winner")
+	gameOver = false;
+}
 
 numInput.addEventListener('change', function () {
-  winningScoreDisplay.textcontent = numInput.value;
-  winningScore =
+  winningScoreDisplay.textcontent = numInput.value
+  winningScore = Number(numInput.value)
 })
