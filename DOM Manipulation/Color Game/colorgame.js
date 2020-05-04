@@ -7,11 +7,10 @@ var messageDisplay = document.querySelector('#message')
 var h1 = document.querySelector('h1')
 var resetButton = document.querySelector('#reset')
 
-resetButton.addEventListener('click', function() {
-    colors = generateRandomColors(6)
-    pickedColor = pickColor()
-    colorDisplay.textContent = pickedColor
-    
+resetButton.addEventListener('click', function () {
+  colors = generateRandomColors(6)
+  pickedColor = pickColor()
+  colorDisplay.textContent = pickedColor
 })
 
 colorDisplay.textContent = pickedColor
