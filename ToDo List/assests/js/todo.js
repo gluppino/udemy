@@ -18,3 +18,12 @@ $('li').click(function () {
 //         // turn it black else turn it gray
  
 //     })
+
+
+$("input[type='text']").keypress(function(event){}
+
+// Click on X to delete todo
+
+$('span').click(function (){
+    alert('clicked on X');
+});
